@@ -1,0 +1,9 @@
+.Rodape_root {
+    background-color: var(--cor-primaria-escura);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-texto-claro);
+    font-size: 12px;
+}
+

@@ -1,5 +1,8 @@
-function Principal(){
-    return <main>Conteúdo Principal</main>
+function Principal() {
+    return (
+        <main>Conteúdo principal</main>
+
+    )
 }
 
-export default Principal
+export default Principal;

@@ -1,0 +1,16 @@
+.Avatar_root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--cor-cinza);
+    color:  var(--cor-texto-claro);
+}
+
+.Avatar_root:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
