@@ -1,11 +1,10 @@
-import "./Rodape.css"
+import "./Rodape.css";
 
 function Rodape() {
-  const ano_atual = new Date().getFullYear();
-
+  const anoAtual = new Date().getFullYear();
   return (
     <footer className="Rodape_root">
-      <span>Copyright © {ano_atual} - Todos os direitos reservados - Athos.</span>
+      <span>Copyright © {anoAtual} - Todos os direitos reservados</span>
     </footer>
   );
 }

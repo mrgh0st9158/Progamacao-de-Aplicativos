@@ -7,14 +7,13 @@
 html,
 body,
 #root {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #root {
     display: grid;
     grid-template-rows: 48px 1fr 48px;
-
 }
 
 :root {
