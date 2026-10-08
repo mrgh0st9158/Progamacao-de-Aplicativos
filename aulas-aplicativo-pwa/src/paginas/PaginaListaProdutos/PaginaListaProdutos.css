@@ -1,0 +1,12 @@
+.div_produtos{   
+    background-color: gray;
+    border-radius: 30px;
+    box-shadow: 6px 6px 15px #000;
+
+    padding: 15px;
+
+}
+
+.PaginaListaProdutos_cores{
+    display: flex;
+}
