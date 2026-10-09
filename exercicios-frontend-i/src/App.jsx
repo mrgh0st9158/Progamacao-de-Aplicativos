@@ -7,6 +7,7 @@ import HoraAtual from './componentes/HoraAtual/HoraAtual';
 import MinutoAtual from './componentes/MinutoAtual/MInutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
+import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
 
 function App() {
   return (
@@ -79,8 +80,26 @@ function App() {
 
       </span>
 
-      <OlaPessoa />
+      <OlaPessoa nome="Athos" />
       <hr />
+
+      <span>
+        9. Crie um componente chamado 'ListaProdutos' que aceita uma prop chamada
+        'produtos' e deve ser uma lista de nomes de produtos.
+        O componente deve listar os itens em tela em uma ul com o fundo roxo e a letra
+        amarela.
+
+      </span>
+
+      <ListaProdutos
+        produtos={[
+          "Celular Samsung",
+          "Notebook Acer",
+          "Smart TV LG",
+          "Impressora HP",
+          "Tablet Multilaser",
+          "Monitor Dell"
+        ]} />
 
     </>
   );
