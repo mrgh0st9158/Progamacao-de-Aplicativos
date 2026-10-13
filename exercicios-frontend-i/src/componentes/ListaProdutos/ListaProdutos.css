@@ -1,10 +1,5 @@
 .ListaProdutos_root{
-    display: flex;
-    flex-direction: column;
-    justify-content: first baseline;
-
     background-color: purple;
     color: yellow;
-
-    padding: 8px;
+    
 }
