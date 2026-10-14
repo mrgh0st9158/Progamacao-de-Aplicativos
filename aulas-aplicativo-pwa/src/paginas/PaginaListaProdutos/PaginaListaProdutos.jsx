@@ -1,3 +1,4 @@
+import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizado";
 import Principal from "../../componentes/Principal/Principal";
 import "./PaginaListaProdutos.css"
 
@@ -28,9 +29,8 @@ function formatar_valor(valor) {
 
 function PaginaListaProdutos() {
     return (
-        <Principal titulo="Lista de Produtos">
+        <Principal titulo="Lista de Produtos" voltarPara="/">
             {produtos.map((itemProduto, index) => {
-
                 return (
                     <div key={index} className="div_produtos">
                         <h3>Produto:</h3> {itemProduto.nome}

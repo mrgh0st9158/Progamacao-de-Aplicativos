@@ -1,24 +1,17 @@
 import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizado";
 import Principal from "../../componentes/Principal/Principal";
+import { useNavigate } from 'react-router-dom';
 
 function PaginaInicial() {
+  const navigate = useNavigate();
   return (
     <Principal>
       Conteúdo principal
       <BotaoCustomizado
         tipo="primario"
-        aoClicar={() => alert("Salvar clicado!")}
-      >
-        Salvar
-      </BotaoCustomizado>
-      <BotaoCustomizado
-        tipo="secundario"
-        aoClicar={() => alert("Cancelar clicado!")}
-      >
-        Cancelar
-      </BotaoCustomizado>
-      <BotaoCustomizado aoClicar={() => alert("Enviar clicado!")}>
-        Enviar
+        aoClicar={() => navigate('/lista-produtos')}
+        >
+        Lista Produtos
       </BotaoCustomizado>
     </Principal>
   );

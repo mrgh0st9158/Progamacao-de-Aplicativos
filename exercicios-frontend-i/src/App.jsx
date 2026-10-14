@@ -4,7 +4,7 @@ import DiaAtual from './componentes/DiaAtual/DiaAtual';
 import MesAtual from './componentes/MesAtual/MesAtual';
 import AnoAtual from './componentes/AnoAutal/AnoAtual';
 import HoraAtual from './componentes/HoraAtual/HoraAtual';
-import MinutoAtual from './componentes/MinutoAtual/MInutoAtual';
+import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
@@ -243,11 +243,11 @@ function App() {
 
       <NomesOrdenados 
       nomes={[
-        "Arline Allison",
-        "Elnora Clarke",
-        "Freeman Dickson",
         "Lizzie Patterson",
-        "Maude Stanton"
+        "Freeman Dickson",
+        "Arline Allison",
+        "Maude Stanton",
+        "Elnora Clarke"
       ]}/>
 
 
