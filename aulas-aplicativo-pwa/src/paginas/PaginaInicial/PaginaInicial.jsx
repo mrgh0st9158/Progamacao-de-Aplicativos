@@ -10,8 +10,15 @@ function PaginaInicial() {
       <BotaoCustomizado
         tipo="primario"
         aoClicar={() => navigate('/lista-produtos')}
-        >
-        Lista Produtos
+      >
+        Lista de Produtos
+      </BotaoCustomizado>
+
+      <BotaoCustomizado
+        tipo="secundario"
+        aoClicar={() => navigate('/lista-de-tarefas')}
+      >
+        Lista de Tarefas
       </BotaoCustomizado>
     </Principal>
   );
