@@ -1,0 +1,11 @@
+.inputNome_root{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputNome_root input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 
 function Principal(props) {
-  return (<main className="Principal_root">
-    {props.voltarPara && <Link to={props.voltarPara}>{"<"}</Link>}
-    <h2>{props.titulo}</h2>
+  return (
+    <main className="Principal_root">
+      {props.voltarPara && <Link to={props.voltarPara}>{"<"}</Link>}
+      <h2>{props.titulo}</h2>
 
-    {props.children}
-  </main>
+      {props.children}
+    </main>
   )
 }
 
