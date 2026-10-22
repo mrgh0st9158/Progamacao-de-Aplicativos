@@ -5,6 +5,7 @@ import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizad
 import CampoCustomizado from "../../componentes/CampoCustomizado/CampoCustomizado";
 import { GiBatWing } from "react-icons/gi";
 
+
 function PaginaListaTarefas() {
     const [descricaoTarefa, setDescricaoTarefa] = useState("");
     const [tarefas, setTarefas] = useState([]);
@@ -48,7 +49,7 @@ function PaginaListaTarefas() {
                 )
             })}
 
-
+            {!tarefas.length && <span className="PaginaListaTarefas_vazio">Nenhuma tarefa cadastrada</span>}
         </Principal>
     )
 };
